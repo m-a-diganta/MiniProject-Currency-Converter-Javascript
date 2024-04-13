@@ -105,7 +105,6 @@ const countryList = {
   MYR: "MY",
   MZN: "MZ",
   NAD: "NA",
-  XPF: "NC",
   NGN: "NG",
   NIO: "NI",
   NPR: "NP",

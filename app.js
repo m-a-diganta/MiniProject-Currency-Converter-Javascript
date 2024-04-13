@@ -70,6 +70,7 @@ const convert = async () => {
     output.innerText = `${amountValue} ${fromCurr.value} = ${result.toFixed(4)} ${toCurr.value}`;
   }  
 };
+
 amount.addEventListener("input", (e) => {
   e.preventDefault();
 });
@@ -84,6 +85,6 @@ exchangeButton.addEventListener("click",(e)=>{
   changeFlag(fromCurr);
   changeFlag(toCurr);
   convert();
-})
+});
   
 
